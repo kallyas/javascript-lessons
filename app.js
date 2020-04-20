@@ -16,8 +16,7 @@ function add() {
   console.log(sum);
 }
 
- addnum.addEventListener('click' => (add){
-                          console.log("Works");
-                          });
+ addnum.addEventListener('click', (add) => console.log("Works")
+                          );
 
 // addnum.onclick = add();
