@@ -7,14 +7,14 @@ const input = document.getElementById("inp"); //grab elements from the dom
 input.value = "hello"; //use the element to write to the browser
 
  const addnum = document.getElementById("add");
-
+const sium = 2 + 2;
 
 function add() {
 
   const sum = 2 + 2
 }
 
- addnum.addEventListener('click', (add) => console.log(sum)
+ addnum.addEventListener('click', (add) => console.log(sium)
                           );
 
 // addnum.onclick = add();
