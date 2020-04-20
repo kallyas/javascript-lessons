@@ -8,13 +8,16 @@ input.value = "hello"; //use the element to write to the browser
 
  const addnum = document.getElementById("add");
 
+
 function add() {
-  
-  addnum.addEventListener('click');
-  
+
   const sum = 2 + 2;
   
   console.log(sum);
 }
 
-addnum.onclick = add();
+ addnum.addEventListener('click' => (add){
+                          console.log("Works");
+                          });
+
+// addnum.onclick = add();
