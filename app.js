@@ -21,8 +21,13 @@
 
 // const button = document.getElementById("add").innerHTML = sium;
 
-var x = 5;
-var y = 9;
-var z = x + y;
+// var x = 5;
+// var y = 9;
+// var z = x + y;
 
-document.write(`<h2>${z}</h2>`);
+// document.write(`<h2>${z}</h2>`);
+
+var greeting = "Hello";
+var greetings = "World";
+
+console.log(greeting + greetings);
