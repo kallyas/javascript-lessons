@@ -11,12 +11,10 @@ input.value = "hello"; //use the element to write to the browser
 
 function add() {
 
-  const sum = 2 + 2;
-  
-  console.log(sum);
+  const sum = 2 + 2
 }
 
- addnum.addEventListener('click', (add) => console.log("Works")
+ addnum.addEventListener('click', (add) => console.log(sum)
                           );
 
 // addnum.onclick = add();
