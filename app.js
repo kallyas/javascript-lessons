@@ -18,3 +18,5 @@ function add() {
                           );
 
 // addnum.onclick = add();
+
+const button = document.getElementById("add").innerHTML = sium;
