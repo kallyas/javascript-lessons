@@ -6,14 +6,15 @@ const input = document.getElementById("inp"); //grab elements from the dom
 
 input.value = "hello"; //use the element to write to the browser
 
+ const addnum = document.getElementById("add");
+
 function add() {
-  const add = document.getElementById("add");
   
-  add.addEventListener('click');
+  addnum.addEventListener('click');
   
   const sum = 2 + 2;
   
   console.log(sum);
 }
 
-add.onclick = add();
+addnum.onclick = add();
